@@ -9,6 +9,7 @@ DEFAULT_OUTPUT_DIR = "/output"
 MAX_SOURCE_BYTES = 1048576
 
 
+# Writes entry.png from beside this script into the target output directory.
 def main() -> int:
     here = os.path.dirname(os.path.abspath(__file__))
     src = os.path.join(here, SOURCE_NAME)
